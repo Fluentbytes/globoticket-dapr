@@ -35,6 +35,7 @@ spec:
         dapr.io/app-id: "frontend"
         dapr.io/app-port: "80"
         dapr.io/config: "appconfig"
+        dapr.io/sidecar-listen-addresses: "0.0.0.0"
     spec:
       containers:
       - name: frontend
